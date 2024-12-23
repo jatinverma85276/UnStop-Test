@@ -1,0 +1,34 @@
+/* General container styling */
+.main-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+/* Welcome text styling */
+.main-page h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Logout button styling */
+.main-page button {
+  padding: 12px 20px;
+  background-color: #6a5af9;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.main-page button:hover {
+  background-color: #5845d1;
+}
