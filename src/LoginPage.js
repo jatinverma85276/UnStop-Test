@@ -116,9 +116,9 @@ function LoginPage() {
               />
               <label>Remember Me</label>
             </div>
-            <a href="#" className="forgot-password">
+            <Link href="#" className="forgot-password">
               Forgot Password?
-            </a>
+            </Link>
           </div>
           <button type="submit" className="login-button">
             Login
@@ -128,9 +128,9 @@ function LoginPage() {
         <div className="footer-links">
           <span>
             Don’t have an account?{" "}
-            <a href="#" className="register-link">
+            <Link href="#" className="register-link">
               Register
-            </a>
+            </Link>
           </span>
         </div>
       </div>
