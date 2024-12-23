@@ -60,11 +60,17 @@ function LoginPage() {
           Welcome to <span className="brand-name">Unstop</span>
         </h2>
         <button className="social-login google-login">
-          <img src="https://fascinating-sorbet-2ee121.netlify.app/search%201.png" />
+          <img
+            src="https://fascinating-sorbet-2ee121.netlify.app/search%201.png"
+            alt="google"
+          />
           Login with Google
         </button>
         <button className="social-login facebook-login">
-          <img src="https://fascinating-sorbet-2ee121.netlify.app/facebook.png" />
+          <img
+            src="https://fascinating-sorbet-2ee121.netlify.app/facebook.png"
+            alt="facebook"
+          />
           Login with Facebook
         </button>
         <div className="divider">
